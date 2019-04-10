@@ -1,8 +1,6 @@
 package oop;
 
 public class Polymorphism extends ConcreteCar {
-//Method Overloading
-	//same method , different parameters
 	
 	public void calculator(int a,int b) {
 		int c = a+b;
@@ -15,16 +13,11 @@ public class Polymorphism extends ConcreteCar {
 		System.out.println(g);
 	}
 	
-	//Method Overriding
 	@Override
 	public void autoHeadLight(int a) {
 		System.out.println(a+"headlight --- polymorphism class");
 
 	}
-	
-	
-	
-	
 	
 	
 	public static void main(String[] args) {

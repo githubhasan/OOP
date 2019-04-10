@@ -1,9 +1,7 @@
 package oop;
 
 public class ConcreteCar extends AbstractCar implements InterfaceCar,InterfaceCar2 {
-	//implements -- interface
-	//extends -- abstract class
-	//extend first , implement second
+	
 	@Override
 	public void start() {
 		
